@@ -1,24 +1,17 @@
-# README
+A simple backend rails application which has a processor OrderedJobs (in lib/) that can be used to get the sequence of jobs from a single input string.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ Ruby version  - 2.6.3
+ Rails version - 5.2.4
 
-Things you may want to cover:
+Manual
 
-* Ruby version
+* Clone the repository
+* Install gems with bundle install
 
-* System dependencies
+* To run unit tests:
 
-* Configuration
+**  bundle exec rspec -> Included all possible specs for ordered_jobs sequence in /lib/ordered_jobs_spec.rb
 
-* Database creation
+Used array indexing and hash methods to get this done.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Cheers!
